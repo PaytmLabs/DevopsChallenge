@@ -15,4 +15,8 @@ Q3: How would you implement a system that distributes a file to 1000 nodes ? (An
 
 Q4: How would you prevent unauthorized access to the cluster resources ? (Assume cluster service does not have intrinsic authentication / authorization built in)
 
+Q5: You have configured Namenode HA. One day when the active NN down, you notice standby NN did not take over. What may cause it? How would you investigate what has happened?  If you see both NN are in standby mode, how to fix it?
 
+Q6: You have turned on SQL Standard-Based Authorization for Hive. user 'joe' is allowed to run select on table 'audit'; meanwhile, user 'joe' has no access permission to the HDFS folder holding the data for table 'audit'. If Joe execute "select * from audit", what he will get?
+
+Q7: You have configured capacity scheduler queues for you Yarn cluster. One day you found one queue resource is fully occupied by a huge job launched by user 'joe' while lots of other users' jobs are pending. How do you prevent it happening?  
